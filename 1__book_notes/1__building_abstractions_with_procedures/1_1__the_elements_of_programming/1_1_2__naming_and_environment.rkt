@@ -14,4 +14,4 @@ size
 circumference
 
 ; The interpreter maintains a memory to keep track of the combinations of the symbols to their respective values.
-; This memory is called "environment" (global environment to be more precise)
+; This memory is called "environment" (global environment to be more precise).
