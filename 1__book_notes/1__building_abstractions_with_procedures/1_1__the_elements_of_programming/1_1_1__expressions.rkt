@@ -1,14 +1,17 @@
 #lang sicp
 
-; The core idea of programming is combining simple ideas into compound ones to build more complex structures
-; 1: primitive expressions - which represent the simplest entities the language is concerned with
-; 2: means of combination - by which compound elements are built from simpler ones
-; 3: means of abstraction - by which compound elements can be named and manipulated as units
+; The core idea of programming is combining simple ideas into compound ones to build more complex structures.
+; 1: primitive expressions - which represent the simplest entities the language is concerned with.
+; 2: means of combination - by which compound elements are built from simpler ones.
+; 3: means of abstraction - by which compound elements can be named and manipulated as units.
 
 ; Primitive Data
 486
 
-; Primitive Procedures 
+; Primitive Procedures
+; +, -, *, /
+
+; Combinations using primitive procedures
 (+ 137 349)
 (- 1000 334)
 (* 5 99)
