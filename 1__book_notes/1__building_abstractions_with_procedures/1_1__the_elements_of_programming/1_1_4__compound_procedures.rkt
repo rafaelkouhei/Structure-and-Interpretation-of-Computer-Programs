@@ -23,5 +23,11 @@
 (sum-of-squares 3 4)
 ; 25
 
+(define (f a)
+  (sum-of-squares (+ a 1) (* a 2)))
+
+(f 5)
+;136
+
 ; Compound procedures as used in the same way as primitive procedures.
 ; In fact, there's no way to tell whether "square" is a built-in operation such as + or * without looking at its definition.
